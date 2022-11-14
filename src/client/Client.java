@@ -1,6 +1,10 @@
-package com.coffeepoweredcrew.adapter.src;
+package com.coffeepoweredcrew.adapter.src.client;
 
-public class Main {
+import com.coffeepoweredcrew.adapter.src.adaptee.Employee;
+import com.coffeepoweredcrew.adapter.src.classadapter.EmployeeClassAdapter;
+import com.coffeepoweredcrew.adapter.src.objectadapter.EmployeeObjectAdapter;
+
+public class Client {
 
 	public static void main(String[] args) {
 
@@ -20,9 +24,9 @@ public class Main {
 		/** Using Object Adapter **/
 		Employee employee = new Employee();
 		populateEmployeeData(employee);
-		EmployeeObjectAdapter objectAdapter = new EmployeeObjectAdapter(employee); 
+		EmployeeObjectAdapter objectAdapter = new EmployeeObjectAdapter(employee);
 		card = designer.designCard(objectAdapter);
-		
+
 		System.out.println(card);
 	}
 

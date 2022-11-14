@@ -1,9 +1,12 @@
-package com.coffeepoweredcrew.adapter.src;
+package com.coffeepoweredcrew.adapter.src.objectadapter;
+
+import com.coffeepoweredcrew.adapter.src.adaptee.Employee;
+import com.coffeepoweredcrew.adapter.src.target.Customer;
 
 /**
  * An object adapter. Using composition to translate interface
  */
-public class EmployeeObjectAdapter implements Customer{
+public class EmployeeObjectAdapter implements Customer {
 
 	private Employee adaptee;
 	

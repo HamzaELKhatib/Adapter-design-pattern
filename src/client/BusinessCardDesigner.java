@@ -1,4 +1,6 @@
-package com.coffeepoweredcrew.adapter.src;
+package com.coffeepoweredcrew.adapter.src.client;
+
+import com.coffeepoweredcrew.adapter.src.target.Customer;
 
 /**
  * Client code which requires Customer interface.

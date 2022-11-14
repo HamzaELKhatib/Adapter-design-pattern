@@ -1,4 +1,4 @@
-package com.coffeepoweredcrew.adapter.src;
+package com.coffeepoweredcrew.adapter.src.target;
 
 /**
  * Target interface required by new client code
